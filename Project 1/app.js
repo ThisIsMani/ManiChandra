@@ -35,7 +35,7 @@ app.get('/numbers', async (req, res) => {
             numbers = [...numbers].sort((a, b) => a - b);
             res.send({"numbers" : numbers});
         }
-    }, 492 /*8ms for sorting(i guess ;)) error*/);
+    }, 492 /*8ms for sorting(i guess)*/);
 
 
     let urlList;
